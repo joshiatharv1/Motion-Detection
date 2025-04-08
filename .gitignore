@@ -1,0 +1,39 @@
+# Compiled output directory
+/target/
+
+# IDE-specific files and directories
+.idea/
+*.iml
+.project
+.classpath
+
+# Eclipse
+.settings/
+bin/
+
+# NetBeans
+nbproject/
+
+# IntelliJ IDEA (more comprehensive - consider using the .ignore plugin)
+# See https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+.idea/*
+!.idea/workspace.xml
+!.idea/tasks.xml
+!.idea/vcs.xml
+!.idea/shelf/
+
+# Build log files (if any)
+*.log
+
+# Package files (if you create them locally outside of Maven)
+*.jar
+*.war
+*.ear
+
+# Temporary files created by the OS or other tools
+.DS_Store
+Thumbs.db
+
+# Maven wrapper (optional, but often included)
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
